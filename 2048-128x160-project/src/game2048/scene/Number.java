@@ -14,10 +14,10 @@ import javax.microedition.lcdui.Image;
 public final class Number implements Animable, Drawable
 {
     
-    public static final int WIDTH = 32;
-    public static final int HEIGHT = 32;
-    private static final int HALF_WIDTH = WIDTH / 2;
-    private static final int HALF_HEIGHT = HEIGHT / 2;
+    public static final int WIDTH = 22;
+    public static final int HEIGHT = 22;
+    private static final int HALF_WIDTH = 4;
+    private static final int HALF_HEIGHT = 4;
     private static final float APPEARING_DEFAULT_HORIZONTAL_MARGIN = HALF_WIDTH;
     private static final float APPEARING_DEFAULT_VERTICAL_MARGIN = HALF_HEIGHT;
     private static final float APPEARING_DURATION = 75f;
