@@ -84,10 +84,12 @@ public final class Scene extends GameCanvas implements Runnable
         score = new Score(0, spacing, ROUNDNESS, false);
         updateScorePosition();
 
-        final Logo logo = new Logo(grid.getX(), spacing);
+        //removed logo 
+        //final Logo logo = new Logo(grid.getX(), spacing);
         grid.setY(score.getY() + score.getHeight() + spacing);
 
-        addToScene(logo);
+        //removed logo
+        //addToScene(logo);
         addToScene(best);
         addToScene(score);
         addToScene(grid);

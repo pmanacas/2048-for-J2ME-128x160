@@ -36,7 +36,8 @@ public final class ActionsPane implements Drawable
      */
     public final void draw(final Graphics graphics)
     {
-        graphics.drawImage(exitImage, canvasPadding, canvas.getHeight() - exitYOffset, Graphics.LEFT | Graphics.TOP);
-        graphics.drawImage(newGameImage, canvas.getWidth() - newGameXOffset, canvas.getHeight() - newGameYOffset, Graphics.LEFT | Graphics.TOP);
+        //remove new game and exit images
+        //graphics.drawImage(exitImage, canvasPadding, canvas.getHeight() - exitYOffset, Graphics.LEFT | Graphics.TOP);
+        //graphics.drawImage(newGameImage, canvas.getWidth() - newGameXOffset, canvas.getHeight() - newGameYOffset, Graphics.LEFT | Graphics.TOP);
     }    
 }
