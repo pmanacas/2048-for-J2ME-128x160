@@ -4,16 +4,18 @@
 2048 game clone for Java ME based cell phones.
 
 Forked from https://github.com/jsmucr/2048-for-J2ME
-Adapted for small screen (128x160)
+Only changes done was to adapt it for small screen resolutions (128x160)
 
 
-Grab the latest release here:
-
+Grab release here:
 https://github.com/pmanacas/2048-for-J2ME-128x160/releases/latest
 
-(Download and copy the 2048.jar to your phone via usb cable)
+# How to install 
+(you need an old java enabled phone):
+ - Download 2048.jar file from the releases page
+ - Copy the 2048.jar to your phone via usb cable
+ - on your phone's file manager navigate to the 2048.jar file and launch it
 
 
-Tested on the Nokia C1-02
-
-http://www.nokia.com/gb-en/phones/phone/c1-02/specifications/
+The jar was tested (and works) on the Nokia C1-02:
+http://web.archive.org/web/20200219022833/https://www.gsmarena.com/nokia_c1_02-3366.php
